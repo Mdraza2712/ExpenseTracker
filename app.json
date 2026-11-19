@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ExpenseApp",
+    "slug": "expenseapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.md_raza2627.ExpenseApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "28b84a64-1dcd-43b8-a744-81c09a71c23c"
+      }
+    },
+    "owner": "md_raza2627",
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
